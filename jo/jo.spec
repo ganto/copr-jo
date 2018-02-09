@@ -20,16 +20,23 @@ jo is a small utility to create JSON objects
 %configure
 make %{?_smp_mflags}
 
-%check
-make check
-
 %install
 rm -rf $RPM_BUILD_ROOT
 %make_install
 
+%check
+make check
+
+#define license tag if not already defined
+%{!?_licensedir:%global license %doc}
+
 %files
-%doc
+%license COPYING
+%doc AUTHORS README
 %{_bindir}/*
 %{_mandir}/man1/*
 
 %changelog
+* Fri Feb 09 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.1-0.1
+- Initial package
+
