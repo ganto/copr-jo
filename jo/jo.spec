@@ -37,6 +37,9 @@ make check
 %{_mandir}/man1/*
 
 %changelog
+* Mon Apr 16 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.1-0.2
+- Trigger rebuild for Fedora 28
+
 * Fri Feb 09 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.1-0.1
 - Initial package
 
