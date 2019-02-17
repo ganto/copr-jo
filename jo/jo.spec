@@ -1,6 +1,6 @@
 Name:           jo
 Version:        1.2
-Release:        0.1%{?dist}
+Release:        0.2%{?dist}
 Summary:        JSON output from a shell
 
 License:        GPLv2
@@ -8,6 +8,7 @@ URL:            https://github.com/jpmens/jo
 Source0:        https://github.com/jpmens/jo/releases/download/v%{version}/jo-%{version}.tar.gz
 
 BuildRequires:  autoconf
+BuildRequires:  gcc
 BuildRequires:  pandoc
 
 %description
