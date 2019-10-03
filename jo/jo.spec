@@ -1,6 +1,6 @@
 Name:           jo
 Version:        1.2
-Release:        0.2%{?dist}
+Release:        0.3%{?dist}
 Summary:        JSON output from a shell
 
 License:        GPLv2
