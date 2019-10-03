@@ -38,6 +38,9 @@ make check
 %{_mandir}/man1/*
 
 %changelog
+* Thu Oct 03 2019 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.2-0.3
+- Rebuild for EPEL-8
+
 * Sun Feb 17 2019 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.2-0.2
 - Add gcc to BuildRequires to fix build failure on >= Fedora 29
 
