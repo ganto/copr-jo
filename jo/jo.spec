@@ -39,6 +39,9 @@ make check
 %{_mandir}/man1/*
 
 %changelog
+* Sun Feb 02 2020 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.3-0.1
+- Update to 1.3
+
 * Sun Feb 17 2019 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.2-0.2
 - Add gcc to BuildRequires to fix build failure on >= Fedora 29
 
