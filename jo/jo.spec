@@ -1,11 +1,11 @@
 Name:           jo
-Version:        1.2
-Release:        0.3%{?dist}
+Version:        1.3
+Release:        0.1%{?dist}
 Summary:        JSON output from a shell
 
 License:        GPLv2
 URL:            https://github.com/jpmens/jo
-Source0:        https://github.com/jpmens/jo/releases/download/v%{version}/jo-%{version}.tar.gz
+Source0:        https://github.com/jpmens/jo/releases/download/%{version}/jo-%{version}.tar.gz
 
 BuildRequires:  autoconf
 BuildRequires:  gcc
@@ -35,12 +35,10 @@ make check
 %license COPYING
 %doc AUTHORS README
 %{_bindir}/*
+%{_sysconfdir}/bash_completion.d/jo.bash
 %{_mandir}/man1/*
 
 %changelog
-* Thu Oct 03 2019 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.2-0.3
-- Rebuild for EPEL-8
-
 * Sun Feb 17 2019 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.2-0.2
 - Add gcc to BuildRequires to fix build failure on >= Fedora 29
 
