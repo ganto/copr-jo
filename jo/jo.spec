@@ -39,6 +39,9 @@ make check
 %{_mandir}/man1/*
 
 %changelog
+* Thu Jul 23 2020 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.4-0.1
+- Update to 1.4
+
 * Sun Feb 02 2020 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.3-0.1
 - Update to 1.3
 
