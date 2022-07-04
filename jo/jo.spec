@@ -39,6 +39,9 @@ make check
 %{_mandir}/man1/*
 
 %changelog
+* Mon Jul 04 2022 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.4-0.2
+- Trigger rebuild for EPEL 9
+
 * Thu Jul 23 2020 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 1.4-0.1
 - Update to 1.4
 
