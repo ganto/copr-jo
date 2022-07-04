@@ -1,6 +1,6 @@
 Name:           jo
-Version:        1.4
-Release:        0.2%{?dist}
+Version:        1.6
+Release:        0.1%{?dist}
 Summary:        JSON output from a shell
 
 License:        GPLv2
@@ -36,6 +36,7 @@ make check
 %doc AUTHORS README
 %{_bindir}/*
 %{_sysconfdir}/bash_completion.d/jo.bash
+%{_datadir}/zsh/site-functions/_jo
 %{_mandir}/man1/*
 
 %changelog
