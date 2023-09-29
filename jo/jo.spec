@@ -1,5 +1,5 @@
 Name:           jo
-Version:        1.6
+Version:        1.9
 Release:        0.1%{?dist}
 Summary:        JSON output from a shell
 
